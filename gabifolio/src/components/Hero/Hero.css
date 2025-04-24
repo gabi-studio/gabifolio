@@ -1,0 +1,92 @@
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 80px;
+    justify-content: space-evenly;  
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .hero h2 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-bottom:20px;
+    color: #bf7f00;
+  }
+
+  .hero h3 {
+    font-size: 1.5em;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .hero-links {
+    display: flex;
+    justify-content: left;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .hero-info {
+    text-align: left;
+    
+  }
+
+  .hero-info p {
+    margin-bottom: 40px;
+
+  }
+
+  .hero-links a {
+    color: #111;
+    transition: color 0.3s ease;
+  }
+  
+  .hero-links a:hover {
+    color: #111;
+  }
+
+  #email-link {
+    text-decoration: underline;
+   
+    font-weight: 700;
+  }
+  
+  
+  .hero-image {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-image {
+      width: 100%;
+      max-width: 300px;
+      margin-top: 20px;
+    }
+  }
+  .hero-button {
+    background-color: #fff;
+    color: #111;
+    margin-top: 30px;
+    padding: 8px 16px;
+    border: 2px solid #214469;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #111;
+    color: #fff;
+    border-color: #111;
+  }
+
+ 

@@ -1,0 +1,30 @@
+.header {
+    padding: 0;
+    background: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;   
+    z-index: 1000;
+    
+  }
+
+  h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #214469;
+    
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 18px;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+  }
+
+
+  

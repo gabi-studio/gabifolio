@@ -64,7 +64,7 @@
     font-size: 14px;
   }
   
-  .project-card a {
+  .project-links {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
@@ -74,7 +74,7 @@
     transition: background 0.3s;
   }
   
-  .project-card a:hover {
+  .project-links:hover {
     background: rgba(0, 0, 0, 0.103);
   }
 

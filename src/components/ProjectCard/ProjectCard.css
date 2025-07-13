@@ -77,7 +77,22 @@
   .project-card a:hover {
     background: rgba(0, 0, 0, 0.103);
   }
-  
+
+  /* For the project image link */
+  .project-link {
+    display: block;
+    border: none;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+  }
+
+  .project-link:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
   /* Responsive: stack content vertically on small screens */
   @media (max-width: 768px) {
     .project-content {

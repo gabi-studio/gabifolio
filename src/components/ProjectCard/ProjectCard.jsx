@@ -50,7 +50,9 @@ export default function ProjectCard({ project }) {
         </div>
         </div>
         <div className="project-image">
-          <img src={project.imagePath} alt={project.name} className="project-img" />
+          <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
+            <img src={project.imagePath} alt={project.name} className="project-img" />
+          </a>
         </div>
       </div>
     </div>

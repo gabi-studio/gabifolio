@@ -63,7 +63,7 @@
     border-radius: 15px;
     font-size: 14px;
   }
-    .project-card a {
+    .project-links a {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
@@ -73,7 +73,7 @@
     transition: background 0.3s;
   }
   
-  .project-card a:hover {
+  .project-links a:hover {
     background: rgba(0, 0, 0, 0.103);
   }
 
